@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+ 
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    
+    
+          
+            <div id="main">
+<!-- header begins -->
+<div id="header">
+	<div id="logo">
+	    <h1>metamorph_lightful</h1>
+        <h2><a href="http://www.metamorphozis.com/" id="metamorph">Design by Metamorphosis Design</a></h2></div>
+    <div id="buttons">
+        <ul>
+          <li class="first"><a href="#"  title="">שאלות ותשובות</a></li>
+          <li><a href="#" title="">הרשמה</a></li>
+          <li><a href="#" title="">צור קשר</a></li>
+           <li><a href="#" title="">מי אנחנו</a></li>
+          <li><a href="#" title="">בית</a></li>
+        </ul>
+    </div>
+</div>
+<!-- header ends -->
+      
+         <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+</body>
+</html>
